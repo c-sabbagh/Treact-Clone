@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.purple {
+    color: #6415ff;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row__small {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+nav {
+    margin-top: 32px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* ================================ NAVIGATION =============================== */
+
+
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__left {
+    display: flex;
+    align-items: center;
+}
+
+.logo__img {
+    height: 40px;
+    width: 40px;
+}
+
+.logo__anchor {
+    padding-left: 12px;
+    font-weight: 700;
+}
+
+.nav__link--list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__link--anchor {
+    margin: 0 24px;
+}
+
+.nav__link--login {
+    margin: 0 24px 0 48px;
+}
+
+.nav__link--signup {
+    padding: 12px 32px;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #6415ff;
+}
+
+
+/* ================================ SECTION ONE =============================== */
+
+
+.section__one {
+    margin: 100px 0;
+    display: flex;
+}
+
+/*  ---------- LEFT ---------- */
+
+.section__one--left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.email__area {
+    height: 70px;
+    border-radius: 30px;
+    border: solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.email__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email {
+    border: none;
+    height:20px;
+    padding: 20px 192px 20px 32px;
+}
+
+.img__customers {
+    width: 100%;
+    max-width: 550px;
+    margin-top: 24px;
+}
+
+/* --------- RIGHT ------------ */
+
+.section__one--right {
+    width: 60%;
+}
+
+.img__office {
+    width: 100%;
+}
