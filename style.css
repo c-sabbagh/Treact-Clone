@@ -6,6 +6,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+HTML {
+    margin-bottom: 500px;
+}
+
 .purple {
     color: #6415ff;
 }
@@ -30,7 +34,7 @@ h1 {
 nav {
     margin-top: 32px;
 }
-
+ 
 a {
     text-decoration: none;
 }
@@ -42,6 +46,10 @@ li {
 
 /* ================================ NAVIGATION =============================== */
 
+
+#landing {
+    padding-bottom: 96px;
+}
 
 .nav__container {
     display: flex;
@@ -140,4 +148,55 @@ p {
 
 .img__office {
     width: 100%;
+}
+
+/* ================================ FEATURES =============================== */
+
+#features {
+    margin: 96px 0;
+}
+
+.features__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features__title {
+    padding: 24px 0;
+}
+
+.features__para {
+    text-align: center;
+    width: 576px;
+    margin-bottom: 32px;
+}
+
+.features__container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 32px;
+}
+
+.feature__wrapper {
+    width: 30%;
+    display: flex;
+    padding: 32px 8px;
+    margin: 0 16px;
+}
+
+.feauture__img {
+    border: solid lightgrey;
+    border-radius: 50px;
+    border-width: 1px;
+    padding: 20px;
+}
+
+.feature__description {
+    margin: 8px 0 0 16px;
+}
+
+.feature__para {
+    margin-top: 16px;
+    line-height: 1.5;
 }
