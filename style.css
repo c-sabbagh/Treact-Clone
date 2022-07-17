@@ -12,6 +12,7 @@ HTML {
 
 .purple {
     color: #6415ff;
+    font-weight: bold;
 }
 
 h1 {
@@ -55,6 +56,7 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 24px;
 }
 
 .nav__left {
@@ -96,21 +98,23 @@ li {
 /* ================================ SECTION ONE =============================== */
 
 
-.section__one {
-    margin: 100px 0;
+.section-one {
+    margin: 100px 0px;
+    padding: 0 24px;
     display: flex;
 }
 
 /*  ---------- LEFT ---------- */
 
-.section__one--left {
+.section-one__left {
     width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-p {
+.section-one__para {
+    margin: 32px 0;
     line-height: 1.5;
 }
 
@@ -120,6 +124,7 @@ p {
     border: solid;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .email__text {
@@ -131,19 +136,37 @@ p {
 .email {
     border: none;
     height:20px;
-    padding: 20px 192px 20px 32px;
+    position: absolute;
+    left: 25px;
+}
+
+.btn__section-one {
+    position: absolute;
+    padding: 16px 24px;
+    border-radius: 25px;
+    right: 6px;
+    top: 6px;
+    bottom: 6px;
+    color: #fff;
+    background-color: #6415ff;
+}
+
+.customers {
+    margin-top: 64px;
 }
 
 .img__customers {
     width: 100%;
     max-width: 550px;
-    margin-top: 24px;
+    margin-top: 16px;
 }
 
 /* --------- RIGHT ------------ */
 
-.section__one--right {
+.section-one__right {
     width: 60%;
+    display: flex;
+
 }
 
 .img__office {
@@ -162,14 +185,14 @@ p {
     align-items: center;
 }
 
-.features__title {
-    padding: 24px 0;
+.section__title {
+    padding: 12px 0;
 }
 
 .features__para {
     text-align: center;
     width: 576px;
-    margin-bottom: 32px;
+    margin: 16px 0 32px 0;
 }
 
 .features__container {
@@ -199,4 +222,99 @@ p {
 .feature__para {
     margin-top: 16px;
     line-height: 1.5;
+}
+
+/* ================================ QUALITY WORK =============================== */
+
+
+.section-two {
+    display: flex;
+    justify-content:space-around;
+    padding: 48px 24px;
+}
+
+/* =============  LEFT  =============== */
+
+.section-two__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+    padding: 16px 0;
+}
+
+.quality__para {
+    margin-top: 16px;
+}
+
+.btn__section-two {
+    border-radius: 25px;
+    color: #fff;
+    background-color: #6415ff;
+    margin-top: 32px;
+    padding: 12px 32px;
+    width: fit-content;
+}
+
+/* =============  RIGHT  =============== */
+
+.section-two__right {
+    display: flex;
+    width: 50%;
+}
+
+.quality__figure {
+    display: flex;
+    align-items: center;;
+}
+
+.section-two__img {
+    width: 100%;
+}
+
+/* ================================ STEPS =============================== */
+
+.section-three {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 24px;
+}
+
+/* =============  LEFT  =============== */
+
+.section-three__left {
+    width: 45%;
+    display: flex;
+}
+
+.steps__figure {
+    display: flex;
+    align-items: center;
+}
+
+.steps__img {
+    width: 100%;
+}
+
+/* =============  RIGHT  =============== */
+
+.section-three__right {
+    width: 45%;
+}
+
+.step__container {
+    display: flex;
+    margin-top: 32px;
+}
+
+.step {
+    margin-left: 24px;
+}
+
+.step__title {
+    font-size: 20px;
+}
+
+.steps__para {
+    margin-top: 12px;
 }

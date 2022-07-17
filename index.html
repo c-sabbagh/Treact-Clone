@@ -12,6 +12,8 @@
     ></script>
   </head>
   <body>
+    <!-- ===================================      LANDING     ========================================== -->
+
     <section id="landing">
       <nav>
         <div class="nav__container row">
@@ -44,12 +46,12 @@
         </div>
       </nav>
       <div class="row">
-        <div class="section__one row">
-          <div class="section__one--left">
+        <div class="section-one row">
+          <div class="section-one__left">
             <h1>
               Beautiful React Templates <span class="purple">for you.</span>
             </h1>
-            <p>
+            <p class="section-one__para">
               Our templates are easy to setup, understand and customize. Fully
               modular components with a variety of pages and components
             </p>
@@ -61,23 +63,26 @@
                   placeholder="Your E-mail Address          "
                 />
               </div>
-              <button>Get Started</button>
+              <button class="btn__section-one">Get Started</button>
             </div>
             <div class="customers">
               <p>OUR TRUSTED CUSTOMERS</p>
               <img class="img__customers" src="./assets/customers.png" alt="" />
             </div>
           </div>
-          <figure class="section__one--right">
+          <figure class="section-one__right">
             <img class="img__office" src="./assets/office.svg" alt="" />
           </figure>
         </div>
       </div>
     </section>
+
+    <!-- ===================================      FEATURES      ========================================== -->
+
     <section id="features">
       <div class="features__description row__small">
         <span class="purple">FEATURES</span>
-        <h1 class="features__title">
+        <h1 class="section__title">
           We have Amazing <span class="purple">Service</span>
         </h1>
         <p class="features__para">
@@ -151,11 +156,7 @@
           </div>
           <div class="feature__wrapper">
             <figure>
-              <img
-                class="feauture__img"
-                src="./assets/fast.svg"
-                alt="secure"
-              />
+              <img class="feauture__img" src="./assets/fast.svg" alt="secure" />
             </figure>
             <div class="feature__description">
               <h2>Fast</h2>
@@ -167,11 +168,7 @@
           </div>
           <div class="feature__wrapper">
             <figure>
-              <img
-                class="feauture__img"
-                src="./assets/easy.svg"
-                alt="secure"
-              />
+              <img class="feauture__img" src="./assets/easy.svg" alt="secure" />
             </figure>
             <div class="feature__description">
               <h2>Easy</h2>
@@ -181,6 +178,74 @@
               </p>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================      QUALITY-WORK     ========================================== -->
+
+    <section id="quality-work">
+      <div class="section-two row">
+        <div class="section-two__left">
+          <span class="purple">QUALITY WORK</span>
+          <h1 class="section__title">
+            Designed & Developed by <span class="purple">Professionals</span>
+          </h1>
+          <p class="quality__para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <button class="btn__section-two">Learn More</button>
+        </div>
+        <div class="section-two__right">
+          <figure class="quality__figure">
+            <img
+              src="./assets/quality-work__img.png"
+              class="section-two__img"
+              alt=""
+            />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+<!-- ======================================     STEPS     ====================================================-->
+
+    <section id="steps">
+      <div class="section-three row">
+        <div class="section-three__left">
+          <figure class="steps__figure">
+            <img src="./assets/steps.png" class="steps__img" alt="">
+          </figure>
+        </div>
+        <div class="section-three__right">
+          <span class="purple">STEPS</span>
+          <h1 class="section__title">Easy to <span class="purple">Get Started</span></h1>
+          <ul class="steps__list">
+            <li class="step__container">
+              <div class="number">01</div>
+              <div class="step">
+                <h6 class="step__title">Register</h6>
+                <p class="steps__para">Create an account with us using Google or Facebook.</p>
+              </div>
+            </li>
+            <li class="step__container">
+              <div class="number">02</div>
+              <div class="step">
+                <h6 class="step__title">Download</h6>
+                <p class="steps__para">Browse and Download the template that you like from the marketplace.</p>
+              </div>
+            </li>
+            <li class="step__container">
+              <div class="number">03</div>
+              <div class="step">
+                <h6 class="step__title">Run</h6>
+                <p class="steps__para">Follow the instructions to setup and customize the template to your needs.</p>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
