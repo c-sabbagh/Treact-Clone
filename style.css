@@ -504,12 +504,57 @@ margin: 0 32px;
 }
 
 .btn__plans {
-   border-radius: 25px;
-   border: none;
-   color: #fff;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
    font-size: 14px;
    font-weight: bold;
    background-color: #6415ff;
    padding: 16px 64px;
-   width: max-content;
+}
+/* ================================ FINAL =============================== */
+
+.section-six {
+    border-radius: 20px;
+    margin-top: 100px;
+    background-color: lightblue;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+    margin: 0px 128px;
+}
+
+.final__title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.final__right {
+    display: flex;
+}
+
+.btn__started {
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 64px;
+    background-color: #F56565;
+    margin-right: 32px;
+}
+
+.btn__contact{
+    border-radius: 25px;
+    border: solid #F56565;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 64px;
+    background-color: #6415ff;
 }
